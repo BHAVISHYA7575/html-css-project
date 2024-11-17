@@ -1,0 +1,163 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #4caf50;
+    color:white;
+    text-align: center;
+    padding: 20px 0 ;
+    margin-bottom: 20px;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav{
+    background-color: #333;
+    padding:10px;
+    text-align:center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #4caf50;
+
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba (0,0,0,0.1);
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+section h2{
+    color: #4caf50;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1em;
+    color: #f5f5f5;
+
+}
+
+form{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border: radius 5px;
+}
+
+form button{
+    background: color #4caf50;
+    color: white;
+    border: none;
+    padding:10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+form button.hover{
+    background-color: #45a049;
+}
+
+fieldset{
+    border:2px solid #4caf50;
+    padding:15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+legend{
+    color:#4caf50;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 15px 0;
+    background-color: #4caf50;
+    color:white;
+    margin-top: 20px;
+
+}
+
+footer p {
+    margin:0;
+    font-size: 0.9em;
+}
+
+a{
+    color: #4caf50;
+    text-decoration:none;
+    font-weight:bold;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #388e3c;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    margin: 20px 0 ;
+}
+
+table th,
+table td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th{
+    background-color: #4caf50;
+    color: white;
+}
+
+table tr :nth-child(even){
+    background-color: #f9f9f9;
+}
